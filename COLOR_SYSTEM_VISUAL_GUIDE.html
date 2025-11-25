@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WealthWizard Color System Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .color-box {
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0.5rem;
+            font-weight: bold;
+            color: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 py-12">
+        <!-- Header -->
+        <div class="text-center mb-16">
+            <h1 class="text-5xl font-bold text-indigo-600 mb-4">WealthWizard</h1>
+            <h2 class="text-2xl text-slate-900 mb-2">Frontend Color System Guide</h2>
+            <p class="text-slate-600">A coordinated 5-color palette for professional financial management</p>
+        </div>
+
+        <!-- Main Color Palette -->
+        <section class="mb-16">
+            <h3 class="text-3xl font-bold text-slate-900 mb-8">Primary Color Palette</h3>
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
+                <!-- Indigo -->
+                <div>
+                    <div class="color-box bg-gradient-to-br from-indigo-600 to-indigo-700 mb-3">
+                        INDIGO
+                    </div>
+                    <h4 class="font-semibold text-slate-900 mb-2">Professional Primary</h4>
+                    <p class="text-sm text-slate-600 mb-3">Branding, main CTAs, headers</p>
+                    <div class="text-xs text-slate-500 space-y-1">
+                        <p><code class="bg-slate-200 px-2 py-1 rounded">indigo-600</code></p>
+                        <p><code class="bg-slate-200 px-2 py-1 rounded">indigo-700</code></p>
+                    </div>
+                </div>
+
+                <!-- Emerald -->
+                <div>
+                    <div class="color-box bg-gradient-to-br from-emerald-600 to-emerald-700 mb-3">
+                        EMERALD
+                    </div>
+                    <h4 class="font-semibold text-slate-900 mb-2">Income & Growth</h4>
+                    <p class="text-sm text-slate-600 mb-3">Positive metrics, income</p>
+                    <div class="text-xs text-slate-500 space-y-1">
+                        <p><code class="bg-slate-200 px-2 py-1 rounded">emerald-600</code></p>
+                        <p><code class="bg-slate-200 px-2 py-1 rounded">emerald-700</code></p>
+                    </div>
+                </div>
+
+                <!-- Rose -->
+                <div>
+                    <div class="color-box bg-gradient-to-br from-rose-600 to-rose-700 mb-3">
+                        ROSE
+                    </div>
+                    <h4 class="font-semibold text-slate-900 mb-2">Expenses & Alerts</h4>
+                    <p class="text-sm text-slate-600 mb-3">Warnings, negative metrics</p>
+                    <div class="text-xs text-slate-500 space-y-1">
+                        <p><code class="bg-slate-200 px-2 py-1 rounded">rose-600</code></p>
+                        <p><code class="bg-slate-200 px-2 py-1 rounded">rose-700</code></p>
+                    </div>
+                </div>
+
+                <!-- Amber -->
+                <div>
+                    <div class="color-box bg-gradient-to-br from-amber-600 to-amber-700 mb-3">
+                        AMBER
+                    </div>
+                    <h4 class="font-semibold text-slate-900 mb-2">Savings & Goals</h4>
+                    <p class="text-sm text-slate-600 mb-3">Savings goals, alerts</p>
+                    <div class="text-xs text-slate-500 space-y-1">
+                        <p><code class="bg-slate-200 px-2 py-1 rounded">amber-600</code></p>
+                        <p><code class="bg-slate-200 px-2 py-1 rounded">amber-700</code></p>
+                    </div>
+                </div>
+
+                <!-- Slate -->
+                <div>
+                    <div class="color-box bg-gradient-to-br from-slate-900 to-slate-800 mb-3">
+                        SLATE
+                    </div>
+                    <h4 class="font-semibold text-slate-900 mb-2">Neutral Base</h4>
+                    <p class="text-sm text-slate-600 mb-3">Text, backgrounds, borders</p>
+                    <div class="text-xs text-slate-500 space-y-1">
+                        <p><code class="bg-slate-200 px-2 py-1 rounded">slate-900</code></p>
+                        <p><code class="bg-slate-200 px-2 py-1 rounded">slate-50</code></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Color Shades -->
+        <section class="mb-16">
+            <h3 class="text-3xl font-bold text-slate-900 mb-8">Color Shade Variations</h3>
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-8">
+                <!-- Indigo Shades -->
+                <div>
+                    <h4 class="font-semibold text-indigo-600 mb-4">Indigo</h4>
+                    <div class="space-y-2">
+                        <div class="bg-indigo-50 p-3 rounded text-xs text-slate-600">indigo-50</div>
+                        <div class="bg-indigo-100 p-3 rounded text-xs text-slate-700 font-medium">indigo-100</div>
+                        <div class="bg-indigo-500 p-3 rounded text-xs text-white font-medium">indigo-500</div>
+                        <div class="bg-indigo-600 p-3 rounded text-xs text-white font-medium">indigo-600</div>
+                        <div class="bg-indigo-700 p-3 rounded text-xs text-white font-medium">indigo-700</div>
+                    </div>
+                </div>
+
+                <!-- Emerald Shades -->
+                <div>
+                    <h4 class="font-semibold text-emerald-600 mb-4">Emerald</h4>
+                    <div class="space-y-2">
+                        <div class="bg-emerald-50 p-3 rounded text-xs text-slate-600">emerald-50</div>
+                        <div class="bg-emerald-100 p-3 rounded text-xs text-slate-700 font-medium">emerald-100</div>
+                        <div class="bg-emerald-500 p-3 rounded text-xs text-white font-medium">emerald-500</div>
+                        <div class="bg-emerald-600 p-3 rounded text-xs text-white font-medium">emerald-600</div>
+                        <div class="bg-emerald-700 p-3 rounded text-xs text-white font-medium">emerald-700</div>
+                    </div>
+                </div>
+
+                <!-- Rose Shades -->
+                <div>
+                    <h4 class="font-semibold text-rose-600 mb-4">Rose</h4>
+                    <div class="space-y-2">
+                        <div class="bg-rose-50 p-3 rounded text-xs text-slate-600">rose-50</div>
+                        <div class="bg-rose-100 p-3 rounded text-xs text-slate-700 font-medium">rose-100</div>
+                        <div class="bg-rose-500 p-3 rounded text-xs text-white font-medium">rose-500</div>
+                        <div class="bg-rose-600 p-3 rounded text-xs text-white font-medium">rose-600</div>
+                        <div class="bg-rose-700 p-3 rounded text-xs text-white font-medium">rose-700</div>
+                    </div>
+                </div>
+
+                <!-- Amber Shades -->
+                <div>
+                    <h4 class="font-semibold text-amber-600 mb-4">Amber</h4>
+                    <div class="space-y-2">
+                        <div class="bg-amber-50 p-3 rounded text-xs text-slate-600">amber-50</div>
+                        <div class="bg-amber-100 p-3 rounded text-xs text-slate-700 font-medium">amber-100</div>
+                        <div class="bg-amber-500 p-3 rounded text-xs text-white font-medium">amber-500</div>
+                        <div class="bg-amber-600 p-3 rounded text-xs text-white font-medium">amber-600</div>
+                        <div class="bg-amber-700 p-3 rounded text-xs text-white font-medium">amber-700</div>
+                    </div>
+                </div>
+
+                <!-- Slate Shades -->
+                <div>
+                    <h4 class="font-semibold text-slate-600 mb-4">Slate</h4>
+                    <div class="space-y-2">
+                        <div class="bg-slate-50 p-3 rounded text-xs border border-slate-200">slate-50</div>
+                        <div class="bg-slate-100 p-3 rounded text-xs text-slate-600">slate-100</div>
+                        <div class="bg-slate-600 p-3 rounded text-xs text-white font-medium">slate-600</div>
+                        <div class="bg-slate-800 p-3 rounded text-xs text-white font-medium">slate-800</div>
+                        <div class="bg-slate-900 p-3 rounded text-xs text-white font-medium">slate-900</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard Cards Example -->
+        <section class="mb-16">
+            <h3 class="text-3xl font-bold text-slate-900 mb-8">Dashboard Summary Cards</h3>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <!-- Total Balance Card -->
+                <div class="bg-white p-6 rounded-lg shadow-sm border-t-4 border-indigo-500">
+                    <div class="flex items-center justify-between mb-4">
+                        <h4 class="text-sm font-medium text-slate-600">Total Balance</h4>
+                        <div class="w-8 h-8 bg-indigo-100 rounded-full flex items-center justify-center">
+                            <span class="text-indigo-600 text-lg">💰</span>
+                        </div>
+                    </div>
+                    <p class="text-2xl font-semibold text-slate-900">$45,230</p>
+                    <p class="text-sm text-emerald-600 mt-2">↑ +12% from last month</p>
+                </div>
+
+                <!-- Monthly Income Card -->
+                <div class="bg-white p-6 rounded-lg shadow-sm border-t-4 border-emerald-500">
+                    <div class="flex items-center justify-between mb-4">
+                        <h4 class="text-sm font-medium text-slate-600">Monthly Income</h4>
+                        <div class="w-8 h-8 bg-emerald-100 rounded-full flex items-center justify-center">
+                            <span class="text-emerald-600 text-lg">📈</span>
+                        </div>
+                    </div>
+                    <p class="text-2xl font-semibold text-slate-900">$8,500</p>
+                    <p class="text-sm text-emerald-600 mt-2">↑ +5% from last month</p>
+                </div>
+
+                <!-- Monthly Expenses Card -->
+                <div class="bg-white p-6 rounded-lg shadow-sm border-t-4 border-rose-500">
+                    <div class="flex items-center justify-between mb-4">
+                        <h4 class="text-sm font-medium text-slate-600">Monthly Expenses</h4>
+                        <div class="w-8 h-8 bg-rose-100 rounded-full flex items-center justify-center">
+                            <span class="text-rose-600 text-lg">📉</span>
+                        </div>
+                    </div>
+                    <p class="text-2xl font-semibold text-slate-900">$3,200</p>
+                    <p class="text-sm text-rose-600 mt-2">↓ -3% from last month</p>
+                </div>
+
+                <!-- Savings Progress Card -->
+                <div class="bg-white p-6 rounded-lg shadow-sm border-t-4 border-amber-500">
+                    <div class="flex items-center justify-between mb-4">
+                        <h4 class="text-sm font-medium text-slate-600">Savings Progress</h4>
+                        <div class="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center">
+                            <span class="text-amber-600 text-lg">🎯</span>
+                        </div>
+                    </div>
+                    <p class="text-2xl font-semibold text-slate-900">65%</p>
+                    <div class="w-full bg-slate-200 rounded-full h-2 mt-2">
+                        <div class="bg-amber-500 h-full rounded-full" style="width: 65%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Buttons Example -->
+        <section class="mb-16">
+            <h3 class="text-3xl font-bold text-slate-900 mb-8">Button Styles</h3>
+            <div class="flex flex-wrap gap-4">
+                <button class="px-6 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition-colors">
+                    Primary Button
+                </button>
+                <button class="px-6 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg transition-colors">
+                    Income / Add
+                </button>
+                <button class="px-6 py-2 bg-rose-600 hover:bg-rose-700 text-white rounded-lg transition-colors">
+                    Expense / Delete
+                </button>
+                <button class="px-6 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-lg transition-colors">
+                    Secondary Action
+                </button>
+                <button class="px-6 py-2 border border-slate-300 text-slate-700 hover:bg-slate-100 rounded-lg transition-colors">
+                    Neutral / Cancel
+                </button>
+            </div>
+        </section>
+
+        <!-- Text Colors Example -->
+        <section class="mb-16">
+            <h3 class="text-3xl font-bold text-slate-900 mb-8">Typography Colors</h3>
+            <div class="space-y-4">
+                <div>
+                    <p class="text-slate-900 font-bold text-lg">Heading - slate-900</p>
+                    <p class="text-xs text-slate-500 mt-1"><code>text-slate-900</code></p>
+                </div>
+                <div>
+                    <p class="text-slate-700 font-semibold">Body Text - slate-700</p>
+                    <p class="text-xs text-slate-500 mt-1"><code>text-slate-700</code></p>
+                </div>
+                <div>
+                    <p class="text-slate-600">Secondary Text - slate-600</p>
+                    <p class="text-xs text-slate-500 mt-1"><code>text-slate-600</code></p>
+                </div>
+                <div>
+                    <p class="text-indigo-600">Link / Interactive - indigo-600</p>
+                    <p class="text-xs text-slate-500 mt-1"><code>text-indigo-600</code></p>
+                </div>
+                <div>
+                    <p class="text-emerald-600">Positive / Income - emerald-600</p>
+                    <p class="text-xs text-slate-500 mt-1"><code>text-emerald-600</code></p>
+                </div>
+                <div>
+                    <p class="text-rose-600">Negative / Expense - rose-600</p>
+                    <p class="text-xs text-slate-500 mt-1"><code>text-rose-600</code></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-slate-900 text-slate-400 py-8 rounded-lg mt-16">
+            <div class="text-center">
+                <h3 class="text-indigo-400 font-semibold mb-2">WealthWizard Color System</h3>
+                <p class="text-sm mb-4">A coordinated color palette for professional financial management</p>
+                <p class="text-xs">Version 1.0 | Last Updated: November 26, 2025</p>
+                <p class="text-xs mt-2">
+                    <a href="COLOR_COORDINATION_GUIDE.md" class="text-indigo-400 hover:text-indigo-300">
+                        Read Full Guide
+                    </a>
+                    •
+                    <a href="QUICK_COLOR_REFERENCE.md" class="text-indigo-400 hover:text-indigo-300">
+                        Quick Reference
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

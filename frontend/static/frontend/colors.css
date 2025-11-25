@@ -1,0 +1,196 @@
+/* 
+   Finance Dashboard - Coordinated Color System
+   Last Updated: November 26, 2025
+   
+   This file documents the unified color scheme used throughout the WealthWizard application.
+   All colors are Tailwind CSS classes applied directly in templates.
+*/
+
+/* ============================================
+   PRIMARY COLOR PALETTE
+   ============================================ */
+
+/* 
+   INDIGO - Primary/Professional
+   Used for: Primary actions, main branding, professional elements
+   Tailwind Classes: indigo-50 to indigo-950
+   Key Shades:
+   - indigo-50: Light background
+   - indigo-100: Subtle backgrounds
+   - indigo-600: Primary button, hover states
+   - indigo-700: Darker hover states
+   - indigo-900: Text on light backgrounds
+*/
+
+/* 
+   EMERALD - Income/Positive
+   Used for: Income indicators, positive metrics, growth signals
+   Tailwind Classes: emerald-50 to emerald-950
+   Key Shades:
+   - emerald-50: Light background
+   - emerald-100: Subtle backgrounds
+   - emerald-500: Progress bars, indicators
+   - emerald-600: Icon backgrounds, text emphasis
+   - emerald-700: Hover states
+*/
+
+/* 
+   ROSE - Expenses/Negative
+   Used for: Expense indicators, warnings, negative metrics
+   Tailwind Classes: rose-50 to rose-950
+   Key Shades:
+   - rose-50: Light background
+   - rose-100: Subtle backgrounds
+   - rose-500: Icon backgrounds
+   - rose-600: Text emphasis, borders
+   - rose-700: Hover states
+*/
+
+/* 
+   AMBER - Warnings/Caution
+   Used for: Savings goals, caution indicators, alerts
+   Tailwind Classes: amber-50 to amber-950
+   Key Shades:
+   - amber-50: Light background
+   - amber-100: Subtle backgrounds
+   - amber-500: Progress bars, icons
+   - amber-600: Text emphasis, borders
+   - amber-700: Hover states
+*/
+
+/* 
+   SLATE - Neutral/Background
+   Used for: Text, borders, backgrounds, neutral elements
+   Tailwind Classes: slate-50 to slate-950
+   Key Shades:
+   - slate-50: Main page background
+   - slate-100: Secondary backgrounds
+   - slate-200: Borders, dividers
+   - slate-500: Secondary text
+   - slate-600: Primary text on light backgrounds
+   - slate-700: Links, emphasis
+   - slate-900: Headings, strong text
+*/
+
+/* ============================================
+   USAGE PATTERNS
+   ============================================ */
+
+/* 
+   DASHBOARD CARDS
+   - Primary cards: border-t-4 border-indigo-500
+   - Income cards: border-t-4 border-emerald-500
+   - Expense cards: border-t-4 border-rose-500
+   - Savings cards: border-t-4 border-amber-500
+   - AI/Insights: border-l-4 border-indigo-500
+*/
+
+/* 
+   BUTTONS
+   - Primary CTA: bg-indigo-600 hover:bg-indigo-700
+   - Income/Add: bg-emerald-600 hover:bg-emerald-700
+   - Expense/Delete: bg-rose-600 hover:bg-rose-700
+   - Secondary/Info: bg-amber-600 hover:bg-amber-700
+   - Neutral/Cancel: bg-slate-300 hover:bg-slate-400
+*/
+
+/* 
+   TEXT COLORS
+   - Headings: text-slate-900
+   - Primary text: text-slate-700
+   - Secondary text: text-slate-600
+   - Tertiary text: text-slate-500
+   - Positive/Income: text-emerald-600
+   - Negative/Expense: text-rose-600
+   - Interactive: text-indigo-600
+*/
+
+/* 
+   BACKGROUNDS
+   - Page background: bg-slate-50
+   - Card background: bg-white
+   - Light feature background: bg-indigo-50, bg-emerald-50, etc.
+   - Dark footer: bg-slate-900
+*/
+
+/* 
+   ICONS & ACCENTS
+   - Income icon background: bg-emerald-100, text-emerald-600
+   - Expense icon background: bg-rose-100, text-rose-600
+   - Primary icon background: bg-indigo-100, text-indigo-600
+   - Savings icon background: bg-amber-100, text-amber-600
+*/
+
+/* 
+   TRANSITIONS & HOVER STATES
+   - All interactive elements: transition-colors
+   - Smooth color changes on hover
+   - Consistent animation timing: duration-300
+*/
+
+/* ============================================
+   FORM ELEMENTS
+   ============================================ */
+
+/* 
+   INPUTS & SELECTS
+   - Border: border-slate-300
+   - Focus border: focus:border-indigo-500
+   - Focus ring: focus:ring-1 focus:ring-indigo-500
+   - Label: text-slate-700 font-medium
+*/
+
+/* ============================================
+   MODALS & OVERLAYS
+   ============================================ */
+
+/* 
+   MODAL CONTAINERS
+   - Background: bg-white
+   - Borders: border-slate-200 or border-indigo-500 (for special modals)
+   - Text: text-slate-900 for headings, text-slate-700 for body
+*/
+
+/* ============================================
+   ACCESSIBILITY NOTES
+   ============================================ */
+
+/* 
+   - Sufficient contrast ratios maintained throughout
+   - Color is not the only indicator (combined with icons/text)
+   - Focus states clearly visible
+   - Hover states consistent with interaction patterns
+*/
+
+/* ============================================
+   RESPONSIVE CONSIDERATIONS
+   ============================================ */
+
+/* 
+   - All color classes are responsive-friendly
+   - No custom breakpoints needed for colors
+   - Consistent palette across all screen sizes
+   - Mobile-first design principles maintained
+*/
+
+/* ============================================
+   COLOR MIGRATION GUIDE
+   ============================================ */
+
+/* 
+   OLD -> NEW MAPPINGS
+   - gray-50 -> slate-50
+   - gray-100 -> slate-100
+   - gray-200 -> slate-200
+   - gray-500 -> slate-500
+   - gray-600 -> slate-600
+   - gray-700 -> slate-700
+   - gray-800 -> slate-800
+   - gray-900 -> slate-900
+   - blue -> indigo
+   - green -> emerald
+   - red -> rose
+   - yellow -> amber (for finance context)
+   - primary variable -> indigo-600
+   - secondary variable -> emerald-600
+*/
